@@ -20,7 +20,7 @@ int main() {
 	cout << "\n";
 	
 	cout << "Return number(s) multiplicity 7:\n";
-	for (i = a; i <= b; i++) if (i % 7 == 0)  cout << " " << i; 
+	for (i = max; i <= min; i++) if (i % 7 == 0)  cout << " " << i; 
 	cout << "\n";
 		
 	return 0;
